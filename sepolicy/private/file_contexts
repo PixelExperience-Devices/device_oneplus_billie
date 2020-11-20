@@ -8,6 +8,9 @@
 # Files in sysfs
 /sys/devices/platform/soc/soc:goodix_fp/proximity_state    u:object_r:sysfs_fpc_proximity:s0
 
+# HALs
+/(product|system/product)/vendor_overlay/[0-9]+/bin/hw/vendor\.qti\.hardware\.vibrator\.service    u:object_r:hal_vibrator_default_exec:s0
+
 # DASH
 /system/bin/dashd    u:object_r:dashd_exec:s0
 
