@@ -207,6 +207,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
+# WiFi
+PRODUCT_PACKAGES += \
+    WifiResCommon
+
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl
