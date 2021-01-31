@@ -20,7 +20,7 @@
        3 = Right
        4 = FOD
     -->
-    <integer name="config_fingerprintSensorLocation">4</integer>
+    <integer name="config_fingerprintSensorLocation">0</integer>
 
     <!-- Whether or not the device is capable of multiple levels of vibration intensity.
          Note that this is different from whether it can control the vibration amplitude as some

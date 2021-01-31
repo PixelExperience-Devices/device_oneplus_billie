@@ -20,5 +20,7 @@
     <dimen name="tri_state_up_dialog_position_deep">32px</dimen>
     <dimen name="tri_state_up_dialog_position_deep_land">28px</dimen>
     <dimen name="tri_state_position_padding_extra">0px</dimen>
+     <dimen name="config_displayWhiteBalanceBrightnessFilterIntercept">10</dimen>
+    <dimen name="config_displayWhiteBalanceColorTemperatureFilterIntercept">10</dimen>
 
 </resources>
