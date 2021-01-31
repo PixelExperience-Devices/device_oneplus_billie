@@ -24,7 +24,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/oneplus/billie/billie-vendor.mk)
 
 # GoogleCamera
-$(call inherit-product, packages/apps/GoogleCamera/config.mk)
+$(call inherit-product-if-exists, packages/apps/GoogleCamera/config.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
