@@ -16,7 +16,7 @@
 
 BOARD_VENDOR := oneplus
 
-DEVICE_PATH := device/oneplus/avicii
+DEVICE_PATH := device/oneplus/billie
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
 
@@ -58,9 +58,9 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 NEED_KERNEL_MODULE_SYSTEM := true
 TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/linux-x86/dtc/dtc
 TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_SOURCE := kernel/oneplus/sm7250
+TARGET_KERNEL_SOURCE := kernel/oneplus/sm6350
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CONFIG := vendor/lito-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/billie-perf_defconfig
 TARGET_KERNEL_CLANG_VERSION := proton
 KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
@@ -123,8 +123,8 @@ SOONG_CONFIG_ONEPLUS_LITO_FOD_SIZE = 208
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_avicii
-TARGET_RECOVERY_DEVICE_MODULES := libinit_avicii
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_billie
+TARGET_RECOVERY_DEVICE_MODULES := libinit_billie
 
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
@@ -184,4 +184,4 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit from the proprietary version
--include vendor/oneplus/avicii/BoardConfigVendor.mk
+-include vendor/oneplus/billie/BoardConfigVendor.mk

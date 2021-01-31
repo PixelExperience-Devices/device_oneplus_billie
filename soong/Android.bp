@@ -1,6 +1,6 @@
 bootstrap_go_package {
     name: "soong-oneplus-lito-plugins",
-    pkgPath: "device/oneplus/avicii",
+    pkgPath: "device/oneplus/billie",
     deps: [
         "blueprint",
         "blueprint-pathtools",

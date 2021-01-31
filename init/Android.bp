@@ -13,9 +13,9 @@
 // limitations under the License.
 
 cc_library_static {
-    name: "libinit_avicii",
+    name: "libinit_billie",
     recovery_available: true,
-    srcs: ["init_avicii.cpp"],
+    srcs: ["init_billie.cpp"],
     include_dirs: [
         "system/core/base/include",
         "system/core/init"

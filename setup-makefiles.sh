@@ -18,7 +18,7 @@
 set -e
 
 # Required!
-export DEVICE=avicii
+export DEVICE=billie
 export VENDOR=oneplus
 
 export DEVICE_BRINGUP_YEAR=2020
