@@ -49,6 +49,14 @@ PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 PRODUCT_TARGET_VNDK_VERSION := 29
 PRODUCT_SHIPPING_API_LEVEL := 29
 
+ifeq ($(TARGET_BUILD_VARIANT),eng)
+# /vendor/default.prop is force-setting ro.adb.secure=1
+# Get rid of that by overriding it in /product on eng builds
+PRODUCT_PRODUCT_PROPERTIES += \
+     ro.secure=0 \
+     ro.adb.secure=0
+endif
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.ims.xml \
