@@ -1,0 +1,2 @@
+# NFC
+persist.nfc.config_file_name    u:object_r:persist_nfc_prop:s0
