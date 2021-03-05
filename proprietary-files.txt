@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from OnePlus6Oxygen_22_OTA_042_all_1912142031_0fb330
+# All unpinned blobs below are extracted from OnePlusN10-user 10 QKQ1.200830.002 2101282206 release-keys
 
 # ANT+
 -lib/libantradio.so
@@ -38,11 +38,11 @@ product/lib64/libdpmframework.so
 product/lib64/libdpmtcm.so
 
 # HotwordEnrollment
--priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
--priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk
 
 # IMS
--product/priv-app/ims/ims.apk|1e781720d5a93134bfd65830ffbaf42e19e17641
+-product/priv-app/ims/ims.apk|3d210d0d245a9a17ac2c8a7a52d7ffa8e6cfe684
 product/lib64/libdiag_system.so
 product/lib64/libimscamera_jni.so
 product/lib64/libimsmedia_jni.so
