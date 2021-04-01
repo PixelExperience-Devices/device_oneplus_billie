@@ -81,6 +81,9 @@ BOARD_VNDK_VERSION := current
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := billie,OnePlusNordN10
+
 # Audio
 USE_CUSTOM_AUDIO_POLICY := 1
 
