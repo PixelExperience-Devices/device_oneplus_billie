@@ -1,13 +1,13 @@
 [
   {
-    "repository": "kernel_oneplus_sm7250",
-    "target_path": "kernel/oneplus/sm7250",
-    "branch": "ten"
+    "repository": "kernel_oneplus_sm6350",
+    "target_path": "kernel/oneplus/sm6350",
+    "branch": "eleven"
   },
   {
     "repository": "vendor_oneplus_billie",
     "target_path": "vendor/oneplus/billie",
-    "branch": "ten",
+    "branch": "eleven",
     "remote": "pixel-devices-blobs"
   },
   {
@@ -27,5 +27,11 @@
     "target_path" : "packages/apps/PixelLiveWallpaper",
     "branch"      : "ten",
     "remote"      : "pixel-gitlab"
+  },
+  {
+    "repository": "vendor_oneplus_billie-vendor",
+    "target_path": "vendor/oneplus/billie-vendor",
+    "branch": "eleven",
+    "remote": "pixel-devices-blobs"
   }
 ]

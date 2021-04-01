@@ -163,3 +163,6 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit from the proprietary version
 -include vendor/oneplus/billie/BoardConfigVendor.mk
+
+# Inherit Prebuilt Vendor/ODM Images
+-include vendor/oneplus/billie-vendor/BoardConfig.mk
