@@ -360,12 +360,18 @@
          backlight values for lux levels between these control points.
          Must be overridden in platform specific overlays -->
     <array name="config_autoBrightnessLevels">
-        <item>10</item>
-        <item>30</item>
-        <item>60</item>
-        <item>100</item>
-        <item>150</item>
-        <item>210</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>8</item>
+        <item>12</item>
+        <item>20</item>
+        <item>33</item>
+        <item>55</item>
+        <item>90</item>
+        <item>148</item>
+        <item>245</item>        
         <item>255</item>
     </array>
 
@@ -381,7 +387,7 @@
          array. The brightness values must be non-negative and non-decreasing. This must be
          overridden in platform specific overlays -->
  <array name="config_autoBrightnessDisplayValuesNits">
-        <item>2.0487</item>
+        <item>0</item>
         <item>4.8394</item>
         <item>17.2619</item>
         <item>39.2619</item>
@@ -413,7 +419,7 @@
          brightness modes but only the maximum brightness value obtainable in a sustainable manner.
          This array should be equal in size to config_screenBrightnessBacklight -->
     <array name="config_screenBrightnessNits">
-        <item>1.423</item>
+        <item>0</item>
         <item>2.4116</item>
         <item>3.1841</item>
         <item>3.8624</item>
@@ -474,92 +480,83 @@
         <item>398.2461</item>
         <item>411.8774</item>
         <item>421.0612</item>
-        <item>431.9423</item>
-        <item>445.8489</item>
-        <item>455.5224</item>
-        <item>467.1182</item>
-        <item>479.5982</item>
-        <item>490.445</item>
-        <item>504.2069</item>
-        <item>515.7034</item>
-        <item>529.5164</item>
     </array>
 
     <!-- An array describing the screen's backlight values corresponding to the brightness
          values in the config_screenBrightnessNits array.
          This array should be equal in size to config_screenBrightnessBacklight. -->
     <integer-array name="config_screenBrightnessBacklight">
+        <item>0</item>
         <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
         <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
         <item>24</item>
-        <item>32</item>
+        <item>25</item>
+        <item>26</item>
+        <item>30</item>
+        <item>35</item>
         <item>40</item>
-        <item>48</item>
-        <item>64</item>
-        <item>80</item>
-        <item>96</item>
-        <item>112</item>
-        <item>128</item>
-        <item>144</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>70</item>
+        <item>100</item>
+        <item>105</item>
+        <item>110</item>
+        <item>115</item>
+        <item>120</item>
+        <item>125</item>
+        <item>130</item>
+        <item>135</item>
+        <item>140</item>
+        <item>145</item>
+        <item>150</item>
+        <item>155</item>
         <item>160</item>
-        <item>176</item>
-        <item>192</item>
-        <item>208</item>
-        <item>224</item>
+        <item>165</item>
+        <item>170</item>
+        <item>175</item>
+        <item>180</item>
+        <item>185</item>
+        <item>190</item>
+        <item>195</item>
+        <item>200</item>
+        <item>205</item>
+        <item>210</item>
+        <item>215</item>
+        <item>220</item>
+        <item>225</item>
+        <item>230</item>
+        <item>235</item>
         <item>240</item>
-        <item>256</item>
-        <item>272</item>
-        <item>288</item>
-        <item>304</item>
-        <item>320</item>
-        <item>400</item>
-        <item>480</item>
-        <item>560</item>
-        <item>640</item>
-        <item>720</item>
-        <item>800</item>
-        <item>880</item>
-        <item>960</item>
-        <item>1040</item>
-        <item>1120</item>
-        <item>1200</item>
-        <item>1280</item>
-        <item>1360</item>
-        <item>1440</item>
-        <item>1520</item>
-        <item>1600</item>
-        <item>1680</item>
-        <item>1760</item>
-        <item>1840</item>
-        <item>1920</item>
-        <item>2000</item>
-        <item>2080</item>
-        <item>2160</item>
-        <item>2240</item>
-        <item>2320</item>
-        <item>2400</item>
-        <item>2480</item>
-        <item>2560</item>
-        <item>2640</item>
-        <item>2720</item>
-        <item>2800</item>
-        <item>2880</item>
-        <item>2960</item>
-        <item>3040</item>
-        <item>3120</item>
-        <item>3200</item>
-        <item>3280</item>
-        <item>3360</item>
-        <item>3440</item>
-        <item>3520</item>
-        <item>3600</item>
-        <item>3680</item>
-        <item>3760</item>
-        <item>3840</item>
-        <item>3920</item>
-        <item>4000</item>
-        <item>4095</item>
-    </integer-array>
+        <item>245</item>
+        <item>250</item>
+        <item>251</item>
+        <item>252</item>
+        <item>253</item>
+        <item>254</item>
+        <item>255</item>    
+     </integer-array>
 
     <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
          percent. The length of this array is assumed to be one greater than
@@ -636,7 +633,7 @@
         <item>1300</item>
         <item>2000</item>
         <item>3300</item>
-        <item>6000</item>
+        <item>4000</item>
     </integer-array>
     
     <!-- Screen brightness used to dim the screen when the user activity
@@ -749,4 +746,9 @@
          config_defaultRefreshRate may be set to 0, in which case the value set for
          config_defaultPeakRefreshRate will act as the default frame rate. -->
     <integer name="config_defaultRefreshRate">90</integer>
+
+    
+    <!-- Height of the status bar -->
+    <dimen name="status_bar_height_portrait">130px</dimen>
+    <dimen name="status_bar_height_landscape">135px</dimen>
 </resources>
