@@ -12,17 +12,6 @@
      limitations under the License.
 -->
 <resources>
-
-    <!-- Alert Slider UI -->
-    <dimen name="tri_state_down_dialog_position_l">550px</dimen>
-    <dimen name="tri_state_middle_dialog_position_l">550px</dimen>
-    <dimen name="tri_state_up_dialog_position_l">550px</dimen>
-    <dimen name="tri_state_up_dialog_position_deep">32px</dimen>
-    <dimen name="tri_state_up_dialog_position_deep_land">28px</dimen>
-    <dimen name="tri_state_position_padding_extra">0px</dimen>
-     <dimen name="config_displayWhiteBalanceBrightnessFilterIntercept">10</dimen>
     <dimen name="config_displayWhiteBalanceBrightnessFilterIntercept">10</dimen>
     <dimen name="config_displayWhiteBalanceColorTemperatureFilterIntercept">10</dimen>
-
-</resources>
 </resources>
