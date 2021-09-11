@@ -41,6 +41,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE=OnePlusNordN10 \
     PRODUCT_NAME=OnePlusNordN10 \
-    PRIVATE_BUILD_DISC="coral-user 11 RP1A.201105.002 6869500 release-keys"
+    PRIVATE_BUILD_DISC="billie-user 11 RQ3A.210805.001.A1 7474174 release-keys"
 
-BUILD_FINGERPRINT := "google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys"
+BUILD_FINGERPRINT := "oneplus/billie/billie:11/RQ3A.210805.001.A1/7474174:user/release-keys"
