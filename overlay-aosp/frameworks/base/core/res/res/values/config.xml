@@ -25,7 +25,6 @@
     <!-- Names of the key handler classes -->
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
         <item>com.android.touch.gestures.KeyHandler</item>
-        <item>org.lineageos.settings.device.KeyHandler</item>
     </string-array>
 
     <!-- Whether device ignores the RSSNR signal implementation -->
