@@ -18,9 +18,9 @@
     "remote": "github"
   },
   {
-    "repository": "CryllicBuster273/packages_apps_googlecamera",
+    "repository": "KakatkarAkshay/packages_apps_googlecamera",
     "target_path": "packages/apps/GoogleCamera",
-    "branch": "ten",
+    "branch": "eleven",
     "remote": "gitlab"
   },
   {
