@@ -1,8 +1,9 @@
 [
   {
-    "repository": "kernel_oneplus_sm6350",
+    "repository": "oneplus-sm6350-devs/kernel_oneplus_billie",
     "target_path": "kernel/oneplus/sm6350",
-    "branch": "eleven"
+    "branch": "lineage-17.1"
+    "remote": "github"
   },
   {
     "repository": "vendor_oneplus_billie",
